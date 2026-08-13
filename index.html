@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Alexey Leshchenko / Алексей Лещенко — Redevest, IT and AI projects." />
+  <title>Алексей Лещенко — l1979.ru</title>
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260807f" />
+</head>
+<body>
+  <header class="site-header wrap">
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="ru" aria-pressed="true" data-i18n="langRu">RU</button>
+      <button type="button" data-lang="en" aria-pressed="false" data-i18n="langEn">EN</button>
+    </div>
+    <a class="contact-link" href="https://t.me/leshchenko1979" target="_blank" rel="noopener noreferrer" data-i18n="contact">Написать в Telegram</a>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-inner">
+        <img
+          class="portrait"
+          src="assets/portrait.jpg"
+          alt="Алексей Лещенко"
+          width="300"
+          height="300"
+          decoding="async"
+        />
+        <div class="hero-copy">
+          <h1 class="brand" data-i18n-html="brandHtml">Алексей<br><span>Лещенко</span></h1>
+          <p class="tagline" data-i18n="tagline">Редевест — инвестиции в недвижимость. Плюс продукты на стыке IT и AI.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="projects wrap">
+      <section class="section-block" aria-labelledby="sec-redevest">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="sectionRedevestKicker">01</p>
+          <h2 class="section-title" id="sec-redevest" data-i18n="sectionRedevestTitle">Редевест</h2>
+          <p class="section-lead" data-i18n="sectionRedevestLead">Бизнес и инвестиции в недвижимость.</p>
+        </div>
+        <div class="card-grid" data-projects="redevest"></div>
+      </section>
+
+      <section class="section-block" aria-labelledby="sec-consumer">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="sectionConsumerKicker">02</p>
+          <h2 class="section-title" id="sec-consumer" data-i18n="sectionConsumerTitle">Продукты</h2>
+          <p class="section-lead" data-i18n="sectionConsumerLead">Сервисы для людей: боты, прокси, платформы.</p>
+        </div>
+        <div class="card-grid" data-projects="consumer"></div>
+      </section>
+
+      <section class="section-block" aria-labelledby="sec-it">
+        <div class="section-head">
+          <p class="section-kicker" data-i18n="sectionItKicker">03</p>
+          <h2 class="section-title" id="sec-it" data-i18n="sectionItTitle">IT и AI</h2>
+          <p class="section-lead" data-i18n="sectionItLead">Инструменты и API для разработчиков и агентов.</p>
+        </div>
+        <div class="card-grid" data-projects="it"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer wrap">
+    <div class="footer-brand" data-i18n="footerBrand">l1979.ru</div>
+    <p class="footer-note" data-i18n="footerNote">Личный сайт · Алексей Лещенко</p>
+    <a class="contact-link" href="https://t.me/leshchenko1979" target="_blank" rel="noopener noreferrer" data-i18n="contact">Написать в Telegram</a>
+  </footer>
+
+  <script src="projects.js?v=20260807e"></script>
+  <script src="i18n.js?v=20260807e"></script>
+</body>
+</html>
