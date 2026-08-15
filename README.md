@@ -36,4 +36,4 @@ Developer tools and APIs for agents and automation.
 
 ## Site
 
-Published from `main` via GitHub Pages (`/` on the custom domain). `www.l1979.ru` redirects to the apex.
+Published from `main` on every push by the `Deploy Pages` GitHub Actions workflow. Custom domain `l1979.ru`; `www.l1979.ru` redirects to the apex.
