@@ -1,7 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" role="img" aria-hidden="true">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.08"/></feComponentTransfer>
+    </filter>
+    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
   <rect width="640" height="360" fill="#10161c"/>
-  <path d="M130 230c70-120 310-120 380 0" stroke="#4a8fb8" stroke-width="20" stroke-linecap="round"/>
-  <circle cx="160" cy="210" r="28" fill="#d45a8c"/>
-  <circle cx="320" cy="120" r="28" fill="#e8c56a"/>
-  <circle cx="480" cy="210" r="28" fill="#4eb3b0"/>
+  <rect width="640" height="360" filter="url(#grain)" opacity="0.55"/>
+  <g filter="url(#shadow)">
+    <path d="M92 268c78-168 378-168 456 0" stroke="#5d8aa8" stroke-width="22" stroke-linecap="round"/>
+    <g transform="translate(160 176)">
+      <circle r="30" fill="#d45a8c"/>
+      <path d="M-30 0A30 30 0 0 0 30 0L0 0z" fill="#b54c73" transform="rotate(45)"/>
+    </g>
+    <g transform="translate(320 100)">
+      <circle r="30" fill="#e8c56a"/>
+      <path d="M-30 0A30 30 0 0 0 30 0L0 0z" fill="#c39c4d" transform="rotate(45)"/>
+    </g>
+    <g transform="translate(480 176)">
+      <circle r="30" fill="#4eb3b0"/>
+      <path d="M-30 0A30 30 0 0 0 30 0L0 0z" fill="#3e8e8c" transform="rotate(45)"/>
+    </g>
+  </g>
 </svg>

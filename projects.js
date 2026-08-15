@@ -2,7 +2,7 @@ window.L1979_PROJECTS = [
   {
     id: "redevest",
     section: "redevest",
-    image: "assets/redevest.svg?v=20260807e",
+    image: "assets/redevest.svg?v=20260815a",
     title: { ru: "Редевест", en: "Redevest" },
     blurb: {
       ru: "Фонд и компания по инвестициям в недвижимость: открытые проекты и прозрачные результаты. Для тех, кто хочет вкладывать в реальные активы с понятной логикой доходности, а не в абстрактные обещания.",
@@ -13,7 +13,7 @@ window.L1979_PROJECTS = [
   {
     id: "ai-antispam",
     section: "consumer",
-    image: "assets/ai-antispam.svg?v=20260807e",
+    image: "assets/ai-antispam.svg?v=20260815a",
     title: { ru: "AI Antispam", en: "AI Antispam" },
     blurb: {
       ru: "Telegram-бот, который модерирует спам по смыслу сообщений и профилю отправителя, а не только по чёрным спискам. Экономит время админов чатов и снижает шум, не ломая нормальное общение.",
@@ -24,7 +24,7 @@ window.L1979_PROJECTS = [
   {
     id: "miidas",
     section: "consumer",
-    image: "assets/miidas.svg?v=20260807e",
+    image: "assets/miidas.svg?v=20260815a",
     title: { ru: "МИИДАС", en: "Miidas" },
     blurb: {
       ru: "Telegram-помощник по бухгалтерии: деньги, налоги и формы с учётом контекста вашего чата. Заменяет рутину «спросить бухгалтера по мелочам» — быстрее ответы и меньше ошибок в повседневных решениях.",
@@ -35,7 +35,7 @@ window.L1979_PROJECTS = [
   {
     id: "business-tinder",
     section: "consumer",
-    image: "assets/business-tinder.svg?v=20260807e",
+    image: "assets/business-tinder.svg?v=20260815a",
     title: { ru: "Business Tinder", en: "Business Tinder" },
     blurb: {
       ru: "Telegram-бот для деловых знакомств в недвижимости и инвестициях: анкета, матчинг, следующий шаг без холодного спама. Помогает находить партнёров и клиентов там, где LinkedIn и чаты не справляются.",
@@ -51,7 +51,7 @@ window.L1979_PROJECTS = [
   {
     id: "tgproxy",
     section: "consumer",
-    image: "assets/tgproxy.svg?v=20260807e",
+    image: "assets/tgproxy.svg?v=20260815a",
     title: { ru: "tgproxy", en: "tgproxy" },
     blurb: {
       ru: "Публичный список рабочих Telegram-прокси, который обновляется автоматически. Когда основной доступ нестабилен, даёт быстрый способ снова писать и читать без ручного поиска «что сегодня работает».",
@@ -62,7 +62,7 @@ window.L1979_PROJECTS = [
   {
     id: "fast-bitrix24",
     section: "it",
-    image: "assets/fast-bitrix24.svg?v=20260807e",
+    image: "assets/fast-bitrix24.svg?v=20260815a",
     title: { ru: "fast_bitrix24", en: "fast_bitrix24" },
     blurb: {
       ru: "Python-обёртка над REST API Битрикс24: параллельные батчи, автотроттлинг и списочные методы в одну строку. Ускоряет выгрузку больших списков в тысячи элементов в секунду — без ручной возни с лимитами и постраничкой.",
@@ -78,7 +78,7 @@ window.L1979_PROJECTS = [
   {
     id: "tg-mcp",
     section: "it",
-    image: "assets/tg-mcp.svg?v=20260807e",
+    image: "assets/tg-mcp.svg?v=20260815a",
     title: { ru: "TG MCP", en: "TG MCP" },
     blurb: {
       ru: "Мультитенантный MCP-шлюз к Telegram: восемь инструментов для агентов (поиск, чтение, отправка) вместо десятков мелких API, плюс мост к MTProto. AI-клиенты получают доступ к Telegram без самописных обёрток.",
